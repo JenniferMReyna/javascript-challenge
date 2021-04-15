@@ -32,7 +32,7 @@ printTable(tableData);
 // Complete the event handler function for the form
 function runEnter(){
     
-    // Prevent the page from refreshing
+    // Prevent the page from refreshing and clear the page
     d3.event.preventDefault();
     tables.html("");
 
@@ -50,4 +50,3 @@ function runEnter(){
 
     printTable(filteredData);
 };
-printTable(filteredData);
